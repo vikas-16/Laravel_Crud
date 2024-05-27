@@ -12,10 +12,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!--   FOR BOOTSTRAP MODAL FORM 
+    <!-- FOR BOOTSTRAP MODAL FORM  -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>-->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
   
 
@@ -28,7 +28,7 @@
         </div>
     </div>
    
-<!-- <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -92,7 +92,7 @@
     </div>
   </div>
 </div>
- -->
+
 
 
 
@@ -107,9 +107,9 @@
         <div class="d-flex justify-content-between py-3">
             <div class="h4">Employees</div>
            
-            <div>
+            <!-- <div>
                 <a href="{{ route('employees.create') }}" class="btn btn-primary">Create</a>
-            </div>
+            </div> -->
             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
                                    Create form
             </button>
